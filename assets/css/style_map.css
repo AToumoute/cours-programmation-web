@@ -53,18 +53,18 @@ body{
     
 }
 .nb-left{
-    WIDTH: 100%;
+    WIDTH: 50%;
     height:100%;
 
     display: flex;
-    
+    justify-content: start;
     align-items: center;
 }
 
 
 .nb-left div{
-    width:10% ;
-    height:60%;
+    width:78px ;
+    height:48px;
 
  
 }
@@ -147,12 +147,10 @@ body{
     height: 130px;
     width: 80%;
     display: grid;
-    margin-left: 10%;
-    margin-bottom: 10%;
+    margin: 10%;
+
     
 }
-
-
 
 .text1{
     
@@ -340,3 +338,9 @@ body{
     color: #667085;
 }
 
+#map {
+    height: 623px; 
+    border: none;
+    border-radius: none;
+    
+}
